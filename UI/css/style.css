@@ -1,3 +1,104 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
 body {
-	background-color: navy;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+/* Navbar stylings */
+nav {
+	background-color: #333;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding: 0px 5px;
+}
+nav ul {
+	display: flex;
+	justify-items: space-between;
+}
+nav ul li a {
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 0px 0.8rem;
+}
+nav ul li a:hover {
+	color: #93cb52;
+}
+#branding {
+	font-size: 2.2rem;
+	line-height: 1.5;
+}
+#brand-first {
+	color: #93cb52;
+}
+/* Navbar styling ends */
+
+/* Showcase Div */
+.showcase {
+	background: #333 url("../images/bg-img.jpg") no-repeat center center/cover;
+	text-align: center;
+	height: 80vh;
+	border-top: 1px solid #93cb52;
+	color: #fff;
+}
+.showcase .showcase-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+.showcase .showcase-content h2 {
+	font-size: 2rem;
+}
+.showcase .showcase-content p {
+	font-size: 1.2rem;
+	padding: 20px 20px 10px 20px;
+	align-self: center;
+	width: 70%;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #93cb52;
+	padding: 8px 0.6rem;
+	width: 7.4rem;
+	font-size: 1.2rem;
+	align-self: center;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	margin: 10px 0px;
+}
+.btn:hover {
+	background-color: #333;
+}
+/* showcase styling ends here */
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 2fr 1;
+	justify-content: space-evenly;
+	padding: 20px 20px;
+}
+
+.about {
+	justify-self: center;
+	width: 80%;
 }
