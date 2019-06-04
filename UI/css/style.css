@@ -13,6 +13,7 @@ a {
 ul {
 	list-style: none;
 }
+
 /* Navbar stylings */
 nav {
 	background-color: #333;
@@ -101,4 +102,26 @@ footer {
 .about {
 	justify-self: center;
 	width: 80%;
+}
+
+.card-header {
+	margin: 4px 0px;
+	font-size: 2rem;
+}
+.container {
+	width: 80%;
+	margin: 10px auto;
+	border: 1px solid #93cb52;
+	border-radius: 5px;
+	padding: 20px 5%;
+	background-color: #fed;
+}
+
+.container form input {
+	display: block;
+	width: 100%;
+	margin: 8px 0px;
+	padding: 8px 8px;
+	border: 1px solid #555;
+	border-radius: 4px;
 }
